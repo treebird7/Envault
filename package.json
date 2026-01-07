@@ -1,0 +1,38 @@
+{
+    "name": "envault",
+    "version": "0.1.0",
+    "description": "Encrypted Git-Ops for your environment variables. Secure, simple, and git-friendly.",
+    "type": "module",
+    "bin": {
+        "envault": "./dist/bin/envault.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsx src/bin/envault.ts",
+        "test": "vitest run",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "env",
+        "secrets",
+        "gitops",
+        "encryption",
+        "dotenv",
+        "security"
+    ],
+    "author": "Treebird",
+    "license": "MIT",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.25.1",
+        "chalk": "^5.3.0",
+        "commander": "^12.0.0",
+        "dotenv": "^16.0.0",
+        "zod": "^4.3.5"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "tsx": "^4.7.0",
+        "typescript": "^5.3.0",
+        "vitest": "^4.0.16"
+    }
+}
