@@ -12,6 +12,8 @@ import { auditCommand } from '../commands/audit.js';
 import { initCommand } from '../commands/init.js';
 import { fileCommand } from '../commands/file.js';
 import { mcpCommand } from '../commands/mcp.js';
+import { keysCommand } from '../commands/keys.js';
+import { scanCommand } from '../commands/scan.js';
 
 const program = new Command();
 
@@ -28,5 +30,7 @@ auditCommand(program);
 initCommand(program);
 fileCommand(program);
 mcpCommand(program);
+keysCommand(program);
+scanCommand(program);
 
 program.parse();
