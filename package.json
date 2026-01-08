@@ -18,10 +18,23 @@
         "gitops",
         "encryption",
         "dotenv",
-        "security"
+        "security",
+        "vault",
+        "config",
+        "cli",
+        "mcp",
+        "environment-variables"
     ],
-    "author": "Treebird",
+    "author": "Treebird <hello@treebird.uk>",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/treebird7/Envault"
+    },
+    "homepage": "https://treebird.uk",
+    "bugs": {
+        "url": "https://github.com/treebird7/Envault/issues"
+    },
     "dependencies": {
         "@modelcontextprotocol/sdk": "^1.25.1",
         "chalk": "^5.3.0",
