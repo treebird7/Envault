@@ -61,7 +61,7 @@ envoak scan pull      # Decrypt all on a new machine
 
 ## 🔗 Mycmail Integration
 
-envoak integrates with [Mycmail](https://github.com/treebird7/myceliumail) for secure agent identity management:
+envoak integrates with [Myceliumail](https://www.npmjs.com/package/myceliumail) for secure agent identity management:
 
 ```bash
 # Generate Mycmail-compatible identity keys
